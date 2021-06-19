@@ -47,4 +47,20 @@ FROM employees as e
 WHERE (de.to_date = ('9999-01-01'))
 	AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
-	
+
+-- Create a list of mentor emloyees with their emp_no and dept_no  
+SELECT me.emp_no,
+	de.dept_no
+INTO mentorship_dept_emp
+FROM mentorship_eligibility as me
+LEFT JOIN dept_emp as de
+ON me.emp_no = de.emp_no;
+
+-- Retrieve the number of eligible mentors by department
+SELECT COUNT(emp_no), mde.dept_no,
+	d.dept_name
+FROM mentorship_dept_emp as mde
+INNER JOIN departments as d
+ON mde.dept_no = d.dept_no
+GROUP BY mde.dept_no, d.dept_name
+ORDER BY dept_no;
