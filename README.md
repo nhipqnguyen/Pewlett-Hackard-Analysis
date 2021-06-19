@@ -12,18 +12,17 @@ After generating a list of all employees eligible for the retirement package, we
 - Software: PostgreSQL 11, pgAdmin 4.
 
 ## Pewlett-Hackard Analysis Results
-Below are the summary dataframe of the ride-sharing data and the PyBer weekly fares summary line graph for each city type:
+- The retiring employees (those who were born between 1952 and 1955) fall in the following 7 titles.
 
-  ![PyBer Summary by City Type](https://github.com/nhipqnguyen/PyBer_Analysis/blob/main/analysis/PyBer_summary_by_city_type.png)
+  ![Retiring Employee Count by Title](https://github.com/nhipqnguyen/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.png)
   
-  ![PyBer Fare Summary](https://github.com/nhipqnguyen/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
-  
-- The number of total rides in urban cities is 2.6 and 13 times that in suburban cities and rural cities, respectively. A similar pattern can be seen with the total nubmber of drivers. Urban cities have approximately 5 and 31 times more drivers than suburban and rural cities, respectively.
-- Since urban cities have the most rides and drivers, followed by suburban cities and then rural cities, the total amounts of ride fares by city ctype also follow that order. The biggest sales comes from urban city, which is approximately 2 and 9 times that of suburban and rural cities. This pattern can also be seen in the line chart, where the top line represents urban cities total fares and the bottom lines represents rural citites.
-- The ratio between total rides and total drivers in rural area is the largest (1.6), followed by suburban cities (1.3) and then urban cities (0.7), which means the demand is higher than the supply in rural and suburban cities while it is the other way around in urban cities. This results in rural cities having the largest average fare per ride and per driver, followed by suburban cities and then urban cities. 
+- The positions that will need to be filled the most are Senior Engineer and Senior Staff.
+- The position that is least demanded by the company is Manager.
+
+- There are 1549 employees (current employees born in 1965) that are eligible for the mentorship program. Here is the information of the first 10:
+
+  ![Mentorship Eligibility](https://github.com/nhipqnguyen/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.png)
 
 ## Pewlett-Hackard Analysis Summary
-Based on the above analysis resutls, here are three business recommendations addressing the disparities among the city types:
-- For rural cities, we could recruit more drivers to increase the supply to better meet the demand and therefore make ride-shring more affordable for the customers in those areas.
-- Similarly, for suburban cities, we could also recruit more drivers to make ride sharing more accessible and affordable to the underserved neighborhoods.
-- For urban cities, we could focus more on marketing, especially advertising, to get more customers and sales.
+- From the above "Retiring Employees" table, Pewlett-Hackard has 90,398 employees retiring soon, which means there are 90,398 positions to fill out as the "silver tsunami" begins to make an impact.
+- The number of eligible mentors Pewlett-Hackard has is only 1.7% of that of their retiring employees. That is to say, each mentor will be in charge of 58 new employees on average which seems quite overwhelming.
