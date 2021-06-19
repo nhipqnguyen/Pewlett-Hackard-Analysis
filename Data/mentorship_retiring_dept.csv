@@ -1,0 +1,10 @@
+dept_no,dept_name,# of mentors,# of new employees
+d001,Marketing,126,6047
+d002,Finance,74,5258
+d003,Human Resources,92,4657
+d004,Production,356,22199
+d005,Development,417,24287
+d006,Quality Management,70,4574
+d007,Sales,247,14291
+d008,Research,82,4568
+d009,Customer Service,85,4517
