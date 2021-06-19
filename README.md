@@ -24,5 +24,11 @@ After generating a list of all employees eligible for the retirement package, we
   ![Mentorship Eligibility](https://github.com/nhipqnguyen/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.png)
 
 ## Pewlett-Hackard Analysis Summary
-- From the above "Retiring Employees" table, Pewlett-Hackard has 90,398 employees retiring soon, which means there are 90,398 positions to fill out as the "silver tsunami" begins to make an impact.
+
+![total_mentor_new_employee](https://github.com/nhipqnguyen/Pewlett-Hackard-Analysis/blob/main/Data/total_mentor_new_employee.png)
+
+- From the above table, Pewlett-Hackard has 90,398 employees retiring soon, which means there are 90,398 positions to fill out as the "silver tsunami" begins to make an impact.
 - The number of eligible mentors Pewlett-Hackard has is only 1.7% of that of their retiring employees. That is to say, each mentor will be in charge of 58 new employees on average which seems quite overwhelming.
+- The below table contains the number of mentors and new employees for each department. We can see that for all department, Pewlett-Hackard does not seem to have enough qualified, retirement-ready employees to mentor the next generation.
+
+![mentorship_retiring_dept](https://github.com/nhipqnguyen/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_retiring_dept.png)
